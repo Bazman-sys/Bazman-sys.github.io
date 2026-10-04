@@ -1,0 +1,68 @@
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #002E5D, #002E5D, #2774ae);
+  background-repeat: no-repeat;
+  color: White;
+}
+
+.navigation a {
+  color: White;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li :hover {
+  box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+}
