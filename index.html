@@ -2,38 +2,130 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
         <title>ePortfolio</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body>
-        <nav class="navbar fira-sans-extrabold">
-            <div class="logo"><a href="index.html">ePortfolio</a></div>
-            <ul class="nav-links">
-                <li><a href="welcome.html">Welcome</a></li>
-                <li><a href="#">Engineering</a></li>
-                <li><a href="#">Mobility</a></li>
-                <li><a href="#">Engagement</a></li>
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Career</a></li>
-            </ul>
-        </nav>
-        <main class="fira-sans-regular container">
-            <div class="box1">
-                <video controls width="600px" class="subbox1">
-                </video>
-                <p class="subbox2">
-                    Here is a short elevator spitch to explain a bit who I am.
-                </p>
+        <header class="header">
+            <a href="#home" class="logo">Basile
+            <span>Khaled Khodja</span></a>
+
+            <i class="bi bi-list"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#welcome">Welcome</a>
+                <a href="#engineering">Engineering</a>
+                <a href="#mobility">Mobility</a>
+                <a href="#engagement">Engagement</a>
+                <a href="#activities">Actvities</a>
+                <a href="#career">Career</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+
+            <div class="home-img">
+                <img src="foret.jpg" alt="">
             </div>
-            <div class="box2">Box two</div>
-            <div class="box3">Box three</div>
-        </main>
-        <footer class="fira-sans-extrabold">
-            <div class="email">khaledkhodjabasile@gmail.com</div>
-            <dic class="phone_nbr">07 68 89 88 05</dic>
-        </footer>
+
+            <div class="home-content">
+                <h3>Hello</h3>
+                <h1>I'm <span>Basile</span> and</h1>
+                <h3 class="text-animation">
+                    I'm a <span></span>
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellendus est perferendis minus aperiam consequuntur 
+                    dolorem atque commodi alias placeat dolor officiis perspiciatis 
+                    debitis laudantium, ullam aliquid nihil quia fuga. Vel?
+                </p>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="welcome" id="welcome">
+            <div class="welcome-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3 class="text-animation">
+                    <span></span>
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Doloribus quia eligendi labore hic pariatur corporis quasi optio, 
+                    sit quam quas aspernatur iusto? Quae suscipit, doloribus earum 
+                    dolorem pariatur voluptas distinctio.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="welcome-img">
+                <img src="foret.jpg" alt="">
+            </div>
+        </section>
+        <section class="engineering" id="engineering">
+            <h2 class="heading">Engineering</h2>
+
+            <div class="engineering-container">
+                
+                <div class="engineering-box">
+                    <div class="engineering-info">
+                        <h4>Web Design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Quod nisi in repudiandae adipisci accusantium a velit 
+                            mollitia corporis provident, ipsam debitis, enim libero 
+                            illo eos, maiores quasi recusandae id similique?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="engineering-box">
+                    <div class="engineering-info">
+                        <h4>Project 2</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Quod nisi in repudiandae adipisci accusantium a velit 
+                            mollitia corporis provident, ipsam debitis, enim libero 
+                            illo eos, maiores quasi recusandae id similique?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="engineering-box">
+                    <div class="engineering-info">
+                        <h4>Project 3</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Quod nisi in repudiandae adipisci accusantium a velit 
+                            mollitia corporis provident, ipsam debitis, enim libero 
+                            illo eos, maiores quasi recusandae id similique?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="engineering-box">
+                    <div class="engineering-info">
+                        <h4>Project 4</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Quod nisi in repudiandae adipisci accusantium a velit 
+                            mollitia corporis provident, ipsam debitis, enim libero 
+                            illo eos, maiores quasi recusandae id similique?
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </body>
 </html>
