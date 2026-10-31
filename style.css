@@ -365,3 +365,79 @@ span {
   font-weight: 400;
   margin: auto;
 }
+
+.mobility {
+  background: var(--second-bg-color);
+  color: black;
+}
+
+.engineering h2 {
+  margin-bottom: 5rem;
+  color: black;
+}
+
+.mobility-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.mobility-motiv {
+  border: 3px solid black;
+  min-height: 400px;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: 0.3s ease;
+  justify-content: center;
+}
+
+.mobility-motiv p{
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  margin: auto;
+  padding: 3rem;
+}
+
+.mobility-motiv:hover {
+  transform: scale(1.05);
+  background: var(--main-color);
+  color: white;
+  border: 3px solid var(--main-color);
+}
+
+.images {
+  grid-column: 2 / 4;
+}
+
+.images img {
+  height: 28vw;
+  position: relative;
+  border-radius: 3rem;
+}
+
+.career-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap : 1rem;
+  margin-top: 2.5rem;
+}
+
+.elevator-pitch {
+  grid-column : 2;
+}
+
+.elevator-pitch video {
+  border: 2px solid black;
+  border-radius: 3rem;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10px;
+}
